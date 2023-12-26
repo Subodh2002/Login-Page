@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(250, 103, 127), rgb(92, 0, 128));
+    font-family: 'Nunito', sans-serif;
+   background-repeat: no-repeat;
+   height: 100vh;
+
+}
+
+#form-cont{
+    display: flex;
+   
+    height: 400px;
+    width: 800px;
+    justify-content: center;
+    align-items:end;
+    background-image: linear-gradient(to right, rgb(236, 44, 37),rgb(0, 102, 255));
+    box-shadow: 0px 30px 100px black;
+
+}
+#form-cont>form{
+    height: 370px;
+    width: 500px;
+    color: gray;
+    background-color: rgba(20, 20, 20, 0.945);
+    display: flex;
+    justify-content: center;
+    
+}
+.input{
+    background: none;
+    border: 2px solid rgb(45, 121, 235) ;
+    height: 30px;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#pass{
+    margin-top: 20px;
+}
+#log, #log-text{
+    text-align: center;
+}
+#log{
+    color: white;
+    margin-bottom: 15px;
+}
+#log-text{
+    margin-top: 0;
+}
+#fg-pass{
+    color: gray;
+    padding-left: 50px;
+}
+#login-btn{
+    color: gray;
+    margin-left: 55px;
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 2px solid forestgreen ;
+    
+    border-radius: 20px;
+}
+#sm-link{
+    position: relative;
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.s-link{
+    color: gray;
+   
+} 
+.fa-facebook, .fa-square-x-twitter, .fa-square-instagram{
+    position: absolute;
+    top: 10px;
+}
+#fb{
+    padding-right: 30px;
+}
+#insta{
+    padding-left: 30px;
+}
