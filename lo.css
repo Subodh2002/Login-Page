@@ -20,6 +20,9 @@ body{
     box-shadow: 0px 30px 100px black;
 
 }
+#form-cont>form>div>h2{
+    word-spacing:2px;
+}
 #form-cont>form{
     height: 370px;
     width: 500px;
